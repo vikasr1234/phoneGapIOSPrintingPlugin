@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.apache.org/cordova/ns/plugins/1.0"
-        id="intspirit.cordova.plugin.printer"
+        id="cordova.plugin.epson-print"
         version="0.0.1">
 
     <name>Print online/offline with Third party apps</name>
 
     <description>Plugin to print offline using bluetooth connection for Cordova 3.x.x</description>
-    <repo>https://github.com/Natalia21/phoneGapIOSPrintingPlugin.git</repo>
+    <repo>https://github.com/vikasr1234/phoneGapIOSPrintingPlugin.git</repo>
     <keywords>print, printer, ios, bluetooth</keywords>
     <license>Apache 2.0</license>
 
@@ -30,9 +30,8 @@
             </feature>
         </config-file>
 
-        <source-file src="src/ios/libeposprint.a" framework="true"/>
-        <header-file src="src/ios/ePOS-Print.h" framework="true"/>
-        <header-file src="src/ios/ePOSBluetoothConnection.h" framework="true"/>
+        <source-file src="src/ios/libepos2.a" framework="true"/>
+        <header-file src="src/ios/ePOS2.h" framework="true"/>
         <source-file src="src/ios/NPrint.h" />
         <source-file src="src/ios/NPrint.m" />
 
