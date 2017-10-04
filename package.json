@@ -1,9 +1,9 @@
 {
-  "name": "intspirit.cordova.plugin.printer",
+  "name": "cordova.plugin.epson-print",
   "version": "0.0.1",
   "description": "Plugin to print offline using bluetooth connection for Cordova 3.x.x",
   "cordova": {
-    "id": "intspirit.cordova.plugin.printer",
+    "id": "cordova.plugin.epson-print",
     "platforms": [
       "ios",
       "android"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.ocm/Natalia21/phoneGapIOSPrintingPlugin.git"
+    "url": "https://github.com/vikasr1234/phoneGapIOSPrintingPlugin.git"
   },
   "keywords": [
     "print",
