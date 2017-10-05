@@ -31,7 +31,9 @@
         </config-file>
 
         <source-file src="src/ios/libepos2.a" framework="true"/>
+        <source-file src="src/ios/libeposeasyselect.a" framework="true"/>
         <header-file src="src/ios/ePOS2.h" framework="true"/>
+        <header-file src="src/ios/ePOSEasySelect.h" framework="true"/>
         <source-file src="src/ios/NPrint.h" />
         <source-file src="src/ios/NPrint.m" />
 
